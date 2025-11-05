@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 文字コードはUTF-8 -->
+<meta charset="utf-8">
+<!-- 幅をデバイスの画面サイズにし、ユーザーによるサイズ変更をできないようにする -->
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<!-- ページを全画面で表示する(iPad/iPhpne用) -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- ステータスバーを半透明で表示する(iPad/iPhpne用) -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Javardry HTML5版</title>
+<link rel="icon" href="./favicon.ico">
+
+<style type="text/css">
+@font-face {
+	font-family: "GameFont";
+	src: url("./data/JF-Dot-MPlus12.woff2") format("woff2");
+}
+
+body {
+	margin: 0;
+	background-color: white;
+}
+:focus {
+	outline: none;
+}
+</style>
+<script type="text/javascript" src="lib/enchant.js"></script>
+<script type="text/javascript" src="lib/gl-matrix-min.js"></script>
+<script type="text/javascript" src="lib/gl.enchant.js"></script>
+<script type="text/javascript" src="lib/primitive.gl.enchant.js"></script>
+<script type="text/javascript" src="lib/base64.js"></script>
+<script type="text/javascript" src="lib/bignumber.min.js"></script>
+<script type="text/javascript" src="lib/webfontloader.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+<script type="text/javascript" src="js/battleAction.min.js"></script>
+<script type="text/javascript" src="js/dungeonAction.min.js"></script>
+<script type="text/javascript" src="js/statusAction.min.js"></script>
+<script type="text/javascript" src="js/townAction.min.js"></script>
+<script type="text/javascript" src="js/CharactorModel.min.js"></script>
+<script type="text/javascript" src="js/DungeonData.min.js"></script>
+<script type="text/javascript" src="js/ItemData.min.js"></script>
+<script type="text/javascript" src="js/MainPanel.min.js"></script>
+<script type="text/javascript" src="js/MonsterData.min.js"></script>
+<script type="text/javascript" src="js/PartyModel.min.js"></script>
+<script type="text/javascript" src="js/SoundEffect.min.js"></script>
+<script type="text/javascript" src="js/SpellEffect.min.js"></script>
+<script type="text/javascript" src="data/config.js"></script>
+<script type="text/javascript" src="data/defaultMessage_eng.js"></script>
+<script type="text/javascript" src="data/gameDataHTML5_eng.js"></script>
+</head>
+<body>
+<div id="hidden" hidden="">SaveName:Javardry,Size:800,Align:center,Controller:on,LoadingScreen:1,NotLoadSaveData:off,NoSoundAllowed:off,GraphicPrefetch:off,SoundPrefetch:off,GraphicLimit:on,GraphicCache:on,SoundCache:on</div>
+</body>
+</html>
